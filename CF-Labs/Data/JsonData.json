@@ -1,0 +1,37 @@
+[
+  {
+    "TradeId": 1,
+    "Direction": "Buy",
+    "Quantity": 2,
+    "Price": 100.0,
+    "Underlying": "Oil"
+  },
+  {
+    "TradeId": 2,
+    "Direction": "Buy",
+    "Quantity": 2,
+    "Price": 110.0,
+    "Underlying": "Oil"
+  },
+  {
+    "TradeId": 3,
+    "Direction": "Buy",
+    "Quantity": 2,
+    "Price": 102.0,
+    "Underlying": "Oil"
+  },
+  {
+    "TradeId": 4,
+    "Direction": "Buy",
+    "Quantity": 2,
+    "Price": 150.0,
+    "Underlying": "Gas"
+  },
+  {
+    "TradeId": 5,
+    "Direction": "Sell",
+    "Quantity": 2,
+    "Price": 92.0,
+    "Underlying": "Oil"
+  }
+]
