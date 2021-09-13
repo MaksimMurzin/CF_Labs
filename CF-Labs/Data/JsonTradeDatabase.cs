@@ -15,7 +15,7 @@ namespace CF_Labs.Data
         ////string json = JsonConvert.SerializeObject(mockDb.GetAllTrades(), Formatting.Indented);
         
         
-        private IEnumerable<Trade> _Trades { get; set; }
+        public IEnumerable<Trade> Trades { get; private set; }
 
         private const string path = @"C:\Users\Makos_PC\Desktop\CF-Labs\CF-Labs\Data\JsonData.json";
         public JsonTradeDatabase()
@@ -24,11 +24,11 @@ namespace CF_Labs.Data
             /*string solutionPath = AppDomain.CurrentDomain.BaseDirectory; //Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName; */
 
 
-            _Trades = JsonConvert.DeserializeObject<List<Trade>>(File.ReadAllText(path));
+            Trades = JsonConvert.DeserializeObject<List<Trade>>(File.ReadAllText(path));
         }
 
-        public IEnumerable<Trade> GetAllTrades() => _Trades;
+        public IEnumerable<Trade> GetAllTrades() => Trades;
 
-        public Trade GetTradeById(int id) => _Trades.FirstOrDefault(trade => trade.TradeId == id);
+        public Trade GetTradeById(int id) => Trades.FirstOrDefault(trade => trade.TradeId == id);
     }
 }
