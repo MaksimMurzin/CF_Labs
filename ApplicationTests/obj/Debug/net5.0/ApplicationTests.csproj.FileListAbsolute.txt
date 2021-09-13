@@ -7,11 +7,6 @@ C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Data\JsonDat
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\CF-Labs.exe
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\testhost.exe
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.TestPlatform.PlatformAbstractions.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\NUnit3.TestAdapter.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\NUnit3.TestAdapter.pdb
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\nunit.engine.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\nunit.engine.api.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\nunit.engine.core.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\ApplicationTests.deps.json
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\ApplicationTests.runtimeconfig.json
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\ApplicationTests.runtimeconfig.dev.json
@@ -19,7 +14,6 @@ C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\ApplicationT
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\ref\ApplicationTests.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\ApplicationTests.pdb
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.DotNet.InternalAbstractions.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Binder.dll
@@ -55,9 +49,7 @@ C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.Vi
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\NuGet.Frameworks.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\nunit.framework.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\System.Diagnostics.EventLog.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll

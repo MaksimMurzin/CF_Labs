@@ -43,4 +43,3 @@ C:\Users\Makos_PC\Desktop\CF-Labs\CF-Labs\bin\Debug\net5.0\Microsoft.Extensions.
 C:\Users\Makos_PC\Desktop\CF-Labs\CF-Labs\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\CF-Labs\bin\Debug\net5.0\System.Diagnostics.EventLog.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\CF-Labs\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
-C:\Users\Makos_PC\Desktop\CF-Labs\CF-Labs\obj\Debug\net5.0\CF-Labs.csproj.AssemblyReference.cache

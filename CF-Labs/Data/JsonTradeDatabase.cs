@@ -13,18 +13,18 @@ namespace CF_Labs.Data
     {
         //in case you ever want to stringify some objects into json 
         ////string json = JsonConvert.SerializeObject(mockDb.GetAllTrades(), Formatting.Indented);
-        
-        
+
+        public string URL { get; set; }
+        public string MainPath { get; set; }
         public IEnumerable<Trade> Trades { get; private set; }
 
-        private const string path = @"C:\Users\Makos_PC\Desktop\CF-Labs\CF-Labs\Data\JsonData.json";
         public JsonTradeDatabase()
         {
-            //I need to figure out how to change this static path to a dynamic one
-            /*string solutionPath = AppDomain.CurrentDomain.BaseDirectory; //Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.Parent.FullName; */
-
-
-            Trades = JsonConvert.DeserializeObject<List<Trade>>(File.ReadAllText(path));
+            // this is a bit of a workaround but it'll do
+            URL = System.IO.Path.GetFullPath(".\\");
+            ////correction in path to point it in Root directory
+            MainPath = Path.Combine(URL, "Data/JsonData.json");
+            Trades = JsonConvert.DeserializeObject<List<Trade>>(File.ReadAllText(MainPath));
         }
 
         public IEnumerable<Trade> GetAllTrades() => Trades;

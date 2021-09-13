@@ -19,7 +19,9 @@ namespace CF_Labs
             var allBuys = dataSorter.GetAllBuys();
             var allSells = dataSorter.GetAllSells();
 
-            Console.WriteLine( $"Total PNL:  {ProfitCounter.CalculatePNL(allBuys,allSells)}" );
+
+            Console.WriteLine();
+            Console.WriteLine($"Total PNL:  {ProfitCounter.CalculatePNL(allBuys, allSells)}");
         }
 
         private static IHostBuilder CreateHostBuilder(string[] args)
