@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ApplicationTests
 {
@@ -36,18 +37,22 @@ namespace ApplicationTests
 
         }
 
+        /// <summary>
+        /// This one is more for me to know if my tests are going mad or the frameworks aren't working properly
+        /// </summary>
         [TestMethod]
         public void SanityCheck()
         {
             Assert.AreEqual(2, 2);
-           
         }
         
         [TestMethod]
-        public void TestAllBuys()
+        public void TestBuysAreEqualByJson()
         {
-            
-            Assert.AreEqual(DataSorter.GetAllBuys(), Allbuys, "The sorting algorithm for buys is messing up");
+            var expectedJSON = JsonConvert.SerializeObject(Allbuys);
+            var actualJSON = JsonConvert.SerializeObject(DataSorter.GetAllBuys());
+
+            Assert.AreEqual(expectedJSON, actualJSON, "The sorting algorithm for buys is messing up");
         }
 
         [DataRow(624.0)]
@@ -56,6 +61,7 @@ namespace ApplicationTests
         {
             Assert.AreEqual(ProfitCounter.CalcultateTotal(DataSorter.GetAllBuys()), expected); 
         }
+
 
 
     }

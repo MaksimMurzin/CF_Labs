@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "irbSI7O623O5rstTrBT/Pmvqb5xoi0w485m9CIRG9MIB+F5fImGe0jbmLVwWZR3NEWcNQDhIZK7dwjefM+RTUw==",
+  "dgSpecHash": "rPIa+Cu5joSqM9uxtgvB6kjnjdtQrsQrILl0tRsI6PLExpMnU2zIS8E1Jie3SmyDAL5jpnKfH1a9u97Cei9iMQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Makos_PC\\Desktop\\CF-Labs\\ApplicationTests\\ApplicationTests.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\Makos_PC\\.nuget\\packages\\microsoft.testplatform.testhost\\16.9.4\\microsoft.testplatform.testhost.16.9.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Makos_PC\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\Makos_PC\\.nuget\\packages\\mstest.testadapter\\2.2.7\\mstest.testadapter.2.2.7.nupkg.sha512",
     "C:\\Users\\Makos_PC\\.nuget\\packages\\mstest.testframework\\2.2.7\\mstest.testframework.2.2.7.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Makos_PC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

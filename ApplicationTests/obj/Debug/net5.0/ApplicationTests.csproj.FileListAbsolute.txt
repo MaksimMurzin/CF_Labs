@@ -128,3 +128,7 @@ C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\obj\Debug\net5.0\ApplicationT
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\obj\Debug\net5.0\ref\ApplicationTests.dll
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\obj\Debug\net5.0\ApplicationTests.pdb
 C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\obj\Debug\net5.0\ApplicationTests.genruntimeconfig.cache
+C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Makos_PC\Desktop\CF-Labs\ApplicationTests\bin\Debug\net5.0\Microsoft.TestPlatform.AdapterUtilities.dll
