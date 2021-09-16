@@ -29,7 +29,7 @@ namespace CF_Labs
             return Host.CreateDefaultBuilder(args)
                 .ConfigureServices(services =>
                 {
-                    services.AddScoped<ITradesDatabase, JsonTradeDatabase>();
+                    services.AddSingleton<ITradesDatabase, JsonTradeDatabase>();
                 });
         }
 
